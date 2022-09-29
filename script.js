@@ -26,7 +26,6 @@ function setColorPickerEventListeners(element, colors, pickerElements) {
         });
     }
 }
-
 function setElementBGColor(bgElement, red, green, blue) {
     let rgbVal = [red, green, blue].join(',');
     bgElement.style.backgroundColor = "rgb(" + rgbVal + ")";
